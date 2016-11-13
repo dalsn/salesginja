@@ -20,6 +20,7 @@
  }
 
 .logo{
+	padding: 5px;
  	height: 45px;
  }
 
@@ -30,9 +31,14 @@
  }
 
  body {
- 	font-family: 'QuickSand', 'Trocchi', Arial;
+ 	font-family: 'QuickSand', Arial;
  }
 
 .font-title {
 	font-family: 'Trocchi', serif;
+}
+
+.navbar-default {
+	background-color: #fff;
+	border-color: #fff;
 }
