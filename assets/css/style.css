@@ -26,4 +26,13 @@
  .logo-name {
  	margin-left: 1em;
  	font-size: 1.5em;
+ 	font-family: 'Trocchi', serif;
  }
+
+ body {
+ 	font-family: 'QuickSand', 'Trocchi', Arial;
+ }
+
+.font-title {
+	font-family: 'Trocchi', serif;
+}
