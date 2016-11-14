@@ -42,3 +42,15 @@ body {
 	background-color: #fff;
 	border-color: #fff;
 }
+
+.collapse{
+	margin-top: 10px;
+}
+
+.home-product__cta_1{
+	padding-left: 15px;
+}
+
+.subitem_link:hover{
+	text-decoration: none;
+}

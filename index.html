@@ -77,19 +77,10 @@
                 <div class="social-support" >
                     <h3 class="social-support__title lead">Connect with your customers <span class="u-nowrap">on multiple platforms</span></h3>
                     <div class="social-support__icons">
-                        <svg class="i i--muted social-support__i i--lg" role="img" aria-labelledby="facebookBox-title">
-                            <title id="facebookBox-title">Facebook</title>
-                            <use xlink:href="#facebookBox"></use>
-                        </svg>
-                        <svg class="i i--muted social-support__i i--lg" role="img" aria-labelledby="twitter-title">
-                            <title id="twitter-title">Twitter</title>
-                            <use xlink:href="#twitter"></use>
-                        </svg>
-                        <svg class="i i--muted social-support__i i--lg" role="img" aria-labelledby="instagram-title">
-                            <title id="instagram-title">Instagram</title>
-                            <use xlink:href="#instagram"></use>
-                        </svg>
-                        <img class="i i--muted social-support__i i--lg" src="assets/imgs/wordpress.svg">
+                        <img class="i i--muted social-support__i i--lg" src="assets/imgs/facebook-logo.svg">
+                        <img class="i i--muted social-support__i i--lg" src="assets/imgs/twitter-logo.svg">
+                        <img class="i i--muted social-support__i i--lg" src="assets/imgs/instagram-logo.svg">
+                        <img class="i i--muted social-support__i i--lg" src="assets/imgs/wordpress-logo.svg">
                         <img class="i i--muted social-support__i i--lg" src="assets/imgs/shopping-cart.svg">
                     </div>
                 </div>
@@ -104,10 +95,20 @@
                             <div class="home-product">
                                 <img class="i home-product__icon i--lg" src="assets/imgs/analytics.svg" style="height: 50px;">
                                 <h4 class="home-product__title">
-                                    <a class="home-product__title__a" href="">Store Front</a>
+                                    <span class="home-product__title__a">Store Front</span>
                                 </h4>
                                 <p class="home-product__desc">With a variety of website templates online, SalesGinja helps you setup the most easy-to-use, affordable and highly effective website and web tools to engage visitors and convert them to paying customers.</p>
-                                <a class="home-product__cta" href="">Learn more</a>
+                                <a class="home-product__cta" role="button" data-toggle="collapse" href="#store-front" aria-expanded="false" aria-controls="store-front">Learn more</a>
+                                <div class="collapse" id="store-front">
+                                    <div class="home-product__cta_1">
+                                        <a class="subitem_link">WordPress website customization</a><br>
+                                        <a class="subitem_link">WordPress blog optimization</a><br>
+                                        <a class="subitem_link">Website traffic Analytics</a><br>
+                                        <a class="subitem_link">Web hosting</a><br>
+                                        <a class="subitem_link">Database administration</a><br>
+                                        <a class="subitem_link">E-commerce checkout and Payment gateway integration</a>
+                                    </div>
+                                </div>
                             </div>
                         </li>
                         
@@ -115,10 +116,18 @@
                             <div class="home-product">
                                 <img class="i home-product__icon i--lg" src="assets/imgs/touch-screen.svg" style="height: 50px;">
                                 <h4 class="home-product__title">
-                                    <a class="home-product__title__a" href="">Digital Marketing</a>
+                                    <span class="home-product__title__a">Digital Marketing</span>
                                 </h4>
                                 <p class="home-product__desc">Reach thousands of web users with your offers. Use Salesginja to this.</p>
-                                <a class="home-product__cta" href="">Learn more</a>
+                                <a class="home-product__cta" role="button" data-toggle="collapse" href="#digital-marketing" aria-expanded="false" aria-controls="digital-marketing">Learn more</a>
+                                <div class="collapse" id="digital-marketing">
+                                    <div class="home-product__cta_1">
+                                        <a class="subitem_link">Higher search page ranking with SEO</a><br>
+                                        <a class="subitem_link">Online Adverts with Google AdWords and AdSense</a><br>
+                                        <a class="subitem_link">Business address placement on Google maps</a><br>
+                                        <a class="subitem_link">Advertise your product on other websites with Affiliate Marketing</a>
+                                    </div>
+                                </div>
                             </div>
                         </li>
                         
@@ -126,10 +135,17 @@
                             <div class="home-product">
                                 <img class="i home-product__icon i--lg" src="assets/imgs/line-graphic.svg" style="height: 50px;">
                                 <h4 class="home-product__title">
-                                    <a class="home-product__title__a" href="">Marketing Campaign</a>
+                                    <span class="home-product__title__a">Marketing Campaign</span>
                                 </h4>
                                 <p class="home-product__desc">Promotions are very important to business sales growth. You will find the tools we offer save you money and reach your target audience.</p>
-                                <a class="home-product__cta" href="">Learn more</a>
+                                <a class="home-product__cta" role="button" data-toggle="collapse" href="#marketing-campaign" aria-expanded="false" aria-controls="marketing-campaign">Learn more</a>
+                                <div class="collapse" id="marketing-campaign">
+                                    <div class="home-product__cta_1">
+                                        <a class="subitem_link">Email marketing and newsletters</a><br>
+                                        <a class="subitem_link">Promoted ads on social media</a><br>
+                                        <a class="subitem_link">Online event ticketing</a><br>
+                                    </div>
+                                </div>
                             </div>
                         </li>
 
@@ -137,7 +153,7 @@
                             <div class="home-product">
                                 <img class="i home-product__icon i--lg" src="assets/imgs/check-mark.svg" style="height: 50px;">
                                 <h4 class="home-product__title">
-                                    <a class="home-product__title__a" href="">Other Services</a>
+                                    <span class="home-product__title__a">Other Services</span>
                                 </h4>
                                 <p class="home-product__desc">Banner design, Accounting, Legal, Web design and development, Clone script of popular apps, Video recording and editing, Animation</p>
                                 <!-- <a class="home-product__cta" href="">Learn more</a> -->
@@ -195,27 +211,18 @@
                     <div class="grid__col grid__col--sm-12 ">
                         <ul class="footer__social">
                             <li class="footer__social__li">
-                                <a href="https://twitter.com/salesginja" target="_blank" class="footer__social__li__a" title="Find SalesGinja on Twitter">
-                                    <svg class="i i--twitter i--sm" role="img" aria-labelledby="twitterBox-title">
-                                        <title id="twitterBox-title">Find SalesGinja on Twitter</title>
-                                        <use xlink:href="#twitterBox"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="footer__social__li">
                                 <a href="https://www.facebook.com/salesginja" target="_blank" class="footer__social__li__a" title="Find SalesGinja on Facebook">
-                                    <svg class="i i--facebook i--sm" role="img" aria-labelledby="facebookBox-title">
-                                        <title id="facebookBox-title">Find SalesGinja on Facebook</title>
-                                        <use xlink:href="#facebookBox"></use>
-                                    </svg>
+                                    <img class="i i--twitter i--sm" role="img" src="assets/imgs/facebook.png">
                                 </a>
                             </li>
                             <li class="footer__social__li">
                                 <a href="https://www.instagram.com/salesginja" class="footer__social__li__a" target="_blank" title="Find SalesGinja on Instagram">
-                                    <svg class="i i--instagram i--sm" role="img" aria-labelledby="instagram-title">
-                                        <title id="instagram-title">Find SalesGinja on Instagram</title>
-                                        <use xlink:href="#instagram"></use>
-                                    </svg>
+                                    <img class="i i--twitter i--sm" role="img" src="assets/imgs/instagram.png">
+                                </a>
+                            </li>
+                            <li class="footer__social__li">
+                                <a href="https://twitter.com/salesginja" target="_blank" class="footer__social__li__a" title="Find SalesGinja on Twitter">
+                                    <img class="i i--twitter i--sm" role="img" src="assets/imgs/twitter.png">
                                 </a>
                             </li>
                         </ul>
@@ -223,25 +230,11 @@
                     <!-- <div class="grid__col grid__col--sm-4 grid__col--sm-pull-8"></div> -->
                 </div>
                 <p><strong>Address:</strong> 4 Colab, Barnawa Close, Gongola Road, Barnawa, Kaduna <br> <strong>Email:</strong> startupkd@gmail.com <br> <strong>Tel:</strong> 07086142959</p>
+                <div>Icons made by <a href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
                 <p class="footer__copyright">&copy;&nbsp;2016 SalesGinja. All Rights Reserved.</p>
             </div>
         </footer>
     </div>
-
-    
-    <svg id="icons" xmlns="http://www.w3.org/2000/svg" style="position:absolute;width:0;height:0;" tabIndex="-1" aria-hidden="true">
-
-        <symbol viewBox="0 0 512 512" id="facebookBox"><path class="i__p0 i--facebookBox__p0" d="M426.7 0H85.3C38.4 0 0 38.4 0 85.3v341.3c0 47 38.4 85.4 85.3 85.4h193.1V313.6h-67.2v-76.8h67.2v-56.6c0-66.1 40.5-101.3 100.3-101.3 28.8 0 52.3 2.2 59.7 3.2v67.2h-42.8c-32 0-38.4 15-38.4 37.3v49H434l-9.6 76.8h-66.1V512h68.3c46.9 0 85.3-38.4 85.3-85.3V85.3C512 38.4 473.6 0 426.7 0z"></path></symbol>
-
-        <symbol viewBox="0 0 512 512" id="twitter"><path class="i__p0 i--twitter__p0" d="M512 98.2c-19.2 8.5-39.5 13.9-60.8 16 21.3-12.8 38.4-33 45.8-57.6-20.2 11.7-42.7 20.2-67.2 25.6-19.2-20.2-46.9-33-76.8-33-57.6 0-104.5 46.9-104.5 104.5 0 8.5 1.1 16 3.2 23.4-86.4-4.3-164.3-45.8-216.4-108.7-8.5 14.9-13.9 33-13.9 52.3 0 36.3 18.1 68.2 46.9 87.5-17.1-1.1-33-5.4-48-12.8v1.1c0 51.2 36.3 92.7 84.2 102.4-8.5 2.2-18.1 3.2-27.8 3.2-6.4 0-13.9-1.1-20.2-2.1 13.9 41.6 52.3 71.4 98.1 72.5-36.2 27.7-81 44.7-130.1 44.7-8.5 0-17.1 0-24.5-1.1C46.9 446 101.3 463 161 463c193 0 298.6-160 298.6-297.5v-13.9c20.5-13.9 38.5-33.2 52.4-53.4z"></path></symbol>
-
-        <symbol viewBox="0 0 512 512" id="instagram"><path class="i__p0 i--instagram__p0" d="M256 46.13c68.36 0 76.45.26 103.45 1.49 25 1.14 38.51 5.31 47.54 8.81a79.32 79.32 0 0 1 29.44 19.15A79.32 79.32 0 0 1 455.57 105c3.51 9 7.68 22.58 8.81 47.54 1.23 27 1.49 35.09 1.49 103.45s-.26 76.45-1.49 103.45c-1.14 25-5.31 38.51-8.81 47.54A84.78 84.78 0 0 1 407 455.57c-9 3.51-22.58 7.68-47.54 8.81-27 1.23-35.09 1.49-103.45 1.49s-76.46-.26-103.45-1.49c-25-1.14-38.51-5.31-47.54-8.81a79.32 79.32 0 0 1-29.44-19.15A79.32 79.32 0 0 1 56.43 407c-3.51-9-7.68-22.58-8.81-47.54-1.23-27-1.49-35.09-1.49-103.45s.26-76.45 1.49-103.45c1.14-25 5.31-38.51 8.81-47.54a79.32 79.32 0 0 1 19.15-29.44A79.32 79.32 0 0 1 105 56.43c9-3.51 22.58-7.68 47.54-8.81 27-1.23 35.09-1.49 103.45-1.49M256 0c-69.53 0-78.24.29-105.55 1.54s-45.86 5.57-62.14 11.9A125.49 125.49 0 0 0 43 43a125.49 125.49 0 0 0-29.56 45.31c-6.33 16.28-10.66 34.89-11.9 62.14S0 186.47 0 256s.29 78.24 1.54 105.55 5.57 45.86 11.9 62.14A125.49 125.49 0 0 0 43 469a125.49 125.49 0 0 0 45.34 29.53c16.28 6.33 34.89 10.66 62.14 11.9S186.47 512 256 512s78.24-.29 105.55-1.54 45.86-5.57 62.14-11.9a130.9 130.9 0 0 0 74.87-74.87c6.33-16.28 10.66-34.89 11.9-62.14S512 325.53 512 256s-.29-78.24-1.54-105.55-5.57-45.86-11.9-62.14A125.49 125.49 0 0 0 469 43a125.49 125.49 0 0 0-45.34-29.53C407.41 7.11 388.8 2.78 361.55 1.54S325.53 0 256 0z"></path><path class="i__p1 i--instagram__p1" d="M256 124.54A131.46 131.46 0 1 0 387.46 256 131.46 131.46 0 0 0 256 124.54zm0 216.79A85.33 85.33 0 1 1 341.33 256 85.33 85.33 0 0 1 256 341.33z"></path><circle class="i__p2 i--instagram__p2" cx="392.65" cy="119.35" r="30.72"></circle></symbol>
-
-        <symbol viewBox="0 0 512 512" id="twitterBox"><path class="i__p0 i--twitterBox__p0" d="M426.7 0H85.3C38.4 0 0 38.4 0 85.3v341.3c0 47 38.4 85.4 85.3 85.4h341.3c46.9 0 85.3-38.4 85.3-85.3V85.3C512 38.4 473.6 0 426.7 0zm-19.2 180.3v9.6c0 101.3-77.9 218.7-219.8 218.7-43.8 0-84.2-12.8-118.4-34.1 6.4 1.1 11.7 1.1 18.2 1.1 36.3 0 69.4-12.8 96-33-34.1-1.1-61.8-22.4-72.5-53.4 4.3 1.1 9.6 1.1 14.9 1.1 7.4 0 13.9-1.1 20.2-3.2-35.2-7.4-61.9-38.4-61.9-75.7v-1.1c10.7 5.4 22.4 9.6 35.2 9.6-20.2-14-34.1-37.5-34.1-64.2 0-13.9 4.3-27.8 10.7-38.4 38.4 46.9 95 76.8 159 80-1.1-5.4-2.2-11.7-2.2-17.1 0-42.7 34.1-76.8 76.8-76.8 22.4 0 42.7 9.6 56.6 24.5 17.1-3.2 34.1-9.6 49-18.2-5.4 18.2-18.2 33-34.1 42.7 16-2.1 31-6.4 44.8-11.7-10.7 15-23.5 28.9-38.4 39.6z"></path></symbol>
-
-    </svg>
-
-    <!-- <script src="/dist/cache/js/98ba16f62998595bc8d34e77bddab90ce296fae4.1478812300.js"></script> -->
 
     <!-- jQuery -->
     <script src="assets/js/jquery.js"></script>
