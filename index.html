@@ -18,12 +18,13 @@
     <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Trocchi" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <link href="assets/css/small.css" rel="stylesheet" type="text/css">
 </head>
-<body class="home">
+<body class="home lg-font">
             
     <span name="top" id="top" class="u-visuallyhidden"></span>
     <a class="u-visuallyhidden" href="#main">Skip to Content</a>
@@ -38,7 +39,7 @@
                     <span class="icon-bar"></span>
                 </button> -->
                 <a class="page-scroll" href="#page-top"><img class="navbar-logo logo" src="assets/imgs/small-logo.jpg"></a>
-                <a class="navbar-brand page-scroll logo-name" href="#main">SalesGinja</a>
+                <a class="navbar-brand page-scroll logo-name" href="#main"><strong>SalesGinja</strong></a>
             </div>
 
             
@@ -77,10 +78,12 @@
                 <div class="social-support" >
                     <h3 class="social-support__title lead">Connect with your customers <span class="u-nowrap">on multiple platforms</span></h3>
                     <div class="social-support__icons">
+                        <img class="i i--muted social-support__i i--lg" src="assets/imgs/wordpress-logo.svg">
+                        <img class="i i--muted social-support__i i--lg" src="assets/imgs/google.svg">
+                        <img class="i i--muted social-support__i i--lg" src="assets/imgs/message.svg">
                         <img class="i i--muted social-support__i i--lg" src="assets/imgs/facebook-logo.svg">
                         <img class="i i--muted social-support__i i--lg" src="assets/imgs/twitter-logo.svg">
                         <img class="i i--muted social-support__i i--lg" src="assets/imgs/instagram-logo.svg">
-                        <img class="i i--muted social-support__i i--lg" src="assets/imgs/wordpress-logo.svg">
                         <img class="i i--muted social-support__i i--lg" src="assets/imgs/shopping-cart.svg">
                     </div>
                 </div>
@@ -91,8 +94,10 @@
             <!-- <section class="section" id="products"> -->
             <div class="section__container container">
                 <h3 class="h2 u-text-center font-title">How to use SalesGinja</h3>
-                <div class="hero__desc">
-                    <p class="hero__desc__body">Click on the tool or service you want.<br> Fill the request form (Call 07086142959 for assistance) that pops up and we will reply within 24 hours with a work plan and qoute.<br> Money back guarantee if you are not happy with our work. </p>
+                <div class="row">
+                    <div class="hero__desc col-lg-8 col-lg-offset-2">
+                        <p class="lg-font">Click on the marketing tool or service you want.<br> Fill the request form (Call 07086142959 for assistance) that pops up and we will reply within 24 hours with a work plan and qoute.<br> Money back guarantee if you are not happy with our work. </p>
+                    </div>
                 </div>
             </div>
             <!-- </section> -->
@@ -104,20 +109,20 @@
                         
                         <li class="block-grid__col">
                             <div class="home-product">
-                                <img class="i home-product__icon i--lg" src="assets/imgs/analytics.svg" style="height: 50px;">
+                                <img class="i home-product__icon i--lg" src="assets/imgs/online-store.svg" style="height: 50px;">
                                 <h4 class="home-product__title">
                                     <span class="home-product__title__a">Store Front</span>
                                 </h4>
                                 <p class="home-product__desc">With a variety of website templates online, SalesGinja helps you setup the most easy-to-use, affordable and highly effective website and web tools to engage visitors and convert them to paying customers.</p>
-                                <a class="home-product__cta" role="button" data-toggle="collapse" href="#store-front" aria-expanded="false" aria-controls="store-front">Learn more</a>
-                                <div class="collapse" id="store-front">
+                                <!-- <a class="home-product__cta" role="button" data-toggle="collapse" href="#store-front" aria-expanded="false" aria-controls="store-front">Learn more</a> -->
+                                <!-- <div class="collapse" id="store-front"> -->
                                     <div class="home-product__cta_1">
                                         <ul>
-                                            <li class="subitem_li"><a class="subitem_link"><strong>WordPress website customization: </strong></a> Have a website on the same platform as <a href="//time.com" target="_blank">time.com</a>. Get a domain name and host plan, customise or personalise your site, integrate shopping cart, checkout, payment gateways, social media and optimise your WordPress blog.</li>
-                                            <li class="subitem_li"><a class="subitem_link"><strong>Website traffic Analytics: </strong></a> Find out who comes to your website and what they look at or do.</li>
+                                            <li class="subitem_li"><i class="fa fa-wordpress" aria-hidden="true"></i><a class="subitem_link"><strong>WordPress website customization: </strong></a> Have a website on the same platform as <a href="//time.com" target="_blank">time.com</a>. Get a domain name and host plan, customise or personalise your site, integrate shopping cart, checkout, payment gateways, social media and optimise your WordPress blog.</li>
+                                            <li class="subitem_li"><i class="fa fa-line-chart" aria-hidden="true"></i><a class="subitem_link"><strong>Website traffic Analytics: </strong></a> Find out who comes to your website and what they look at or do.</li>
                                         </ul>
                                     </div>
-                                </div>
+                                <!-- </div> -->
                             </div>
                         </li>
                         
@@ -128,47 +133,40 @@
                                     <span class="home-product__title__a">Digital Marketing</span>
                                 </h4>
                                 <p class="home-product__desc">Reach thousands of web users with your offers. Use Salesginja to this.</p>
-                                <a class="home-product__cta" role="button" data-toggle="collapse" href="#digital-marketing" aria-expanded="false" aria-controls="digital-marketing">Learn more</a>
-                                <div class="collapse" id="digital-marketing">
+                                <!-- <a class="home-product__cta" role="button" data-toggle="collapse" href="#digital-marketing" aria-expanded="false" aria-controls="digital-marketing">Learn more</a> -->
+                                <!-- <div class="collapse" id="digital-marketing"> -->
                                     <div class="home-product__cta_1">
                                         <ul>
-                                            <li class="subitem_li"><a class="subitem_link" href="https://goo.gl/forms/5isC46eqm3xEurnT2" target="_blank"><strong>Get a higher search page ranking with Search Engine Optimisation (SEO): </strong></a> Put your business up there on search results on <strong>Google, Bing or Yahoo</strong>. Place your business on Google maps and Pop up on local search.</li>
-                                            <li class="subitem_li"><a class="subitem_link"><strong>Advertise online: </strong></a> Best way to advertise. Pay only for ads clicked on <strong>Google, Bing or Yahoo</strong>. Advertise your product on other websites with Affiliate Marketing.</li>
+                                            <li class="subitem_li"><i class="fa fa-search" aria-hidden="true"></i><a class="subitem_link" href="https://goo.gl/forms/5isC46eqm3xEurnT2" target="_blank"><strong>Get a higher search page ranking with Search Engine Optimisation (SEO): </strong></a> Put your business up there on search results on <strong>Google, Bing or Yahoo</strong>. Place your business on Google maps and Pop up on local search.</li>
+                                            <li class="subitem_li"><i class="fa fa-google" aria-hidden="true"></i><a class="subitem_link"><strong>Advertise online: </strong></a> Best way to advertise. Pay only for ads clicked on <strong>Google, Bing or Yahoo</strong>. Advertise your product on other websites with Affiliate Marketing.</li>
                                         </ul>
                                     </div>
-                                </div>
+                                <!-- </div> -->
                             </div>
                         </li>
                         
                         <li class="block-grid__col">
                             <div class="home-product">
-                                <img class="i home-product__icon i--lg" src="assets/imgs/line-graphic.svg" style="height: 50px;">
+                                <img class="i home-product__icon i--lg" src="assets/imgs/megaphone.svg" style="height: 50px;">
                                 <h4 class="home-product__title">
                                     <span class="home-product__title__a">Marketing Campaign</span>
                                 </h4>
                                 <p class="home-product__desc">Promotions are very important to business sales growth. You will find the tools we offer save you money and reach your target audience.</p>
-                                <a class="home-product__cta" role="button" data-toggle="collapse" href="#marketing-campaign" aria-expanded="false" aria-controls="marketing-campaign">Learn more</a>
-                                <div class="collapse" id="marketing-campaign">
+                                <!-- <a class="home-product__cta" role="button" data-toggle="collapse" href="#marketing-campaign" aria-expanded="false" aria-controls="marketing-campaign">Learn more</a> -->
+                                <!-- <div class="collapse" id="marketing-campaign"> -->
                                     <div class="home-product__cta_1">
                                         <ul>
-                                            <li class="subitem_li"><a class="subitem_link"><strong>Email marketing and newsletters: </strong></a> Take advantage of the most effective online marketing tool. Send beautiful, compelling emails to convert recipients into customers.</li>
+                                            <li class="subitem_li"><i class="fa fa-envelope-open-o" aria-hidden="true"></i><a class="subitem_link"><strong>Email marketing and newsletters: </strong></a> Take advantage of the most effective online marketing tool. Send beautiful, compelling emails to convert recipients into customers.</li>
                                             <!-- <a class="subitem_link">Promoted ads on social media</a><br> -->
-                                            <li class="subitem_li"><a class="subitem_link"><strong>Online event ticketing: </strong></a> Reach attendees to register, print tickets and/or pay to attend events you host and follow up with email updates and/or newsletters to them.</li>
+                                            <li class="subitem_li"><i class="fa fa-ticket" aria-hidden="true"></i><a class="subitem_link"><strong>Online event ticketing: </strong></a> Reach attendees to register, print tickets and/or pay to attend events you host and follow up with email updates and/or newsletters to them.</li>
                                         </ul>
                                     </div>
-                                </div>
+                                <!-- </div> -->
                             </div>
                         </li>
 
                         <li class="block-grid__col">
-                            <div class="home-product">
-                                <img class="i home-product__icon i--lg" src="assets/imgs/check-mark.svg" style="height: 50px;">
-                                <h4 class="home-product__title">
-                                    <span class="home-product__title__a">Other Services</span>
-                                </h4>
-                                <p class="home-product__desc">Banner design, Accounting, Legal, Web design and development, Clone script of popular apps, Video recording and editing, Animation</p>
-                                <!-- <a class="home-product__cta" href="">Learn more</a> -->
-                            </div>
+                            
                         </li>
                     </ul>
                 </div>
@@ -213,13 +211,6 @@
                         </li>
                     </ul>
                 </div>
-                <div class="container">
-                    <!-- Button trigger modal -->
-                    <a class="btn btn-default col-lg-12 col-md-12 col-sm-12 col-xs-12" data-toggle="modal" data-target="#myModal" style="margin: 30px 0px;">
-                        <strong>Subscribe to our Newsletter</strong>
-                    </a>
-                </div>
-                
 
                 <!-- Modal -->
                 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -269,6 +260,25 @@
 
         <footer class="footer" id="footer">
             <div class="container footer__container">
+                <div class="container">
+                    <div class="row center">
+                        <div class="text-center">
+                            <!-- <img class="i home-product__icon i--lg" src="assets/imgs/check-mark.svg" style="height: 50px;"> -->
+                            <h4 class="home-product__title">
+                                <span class="home-product__title__a">Other Services</span>
+                            </h4>
+                            <p class="home-product__desc lg-font"><u>Banner design.</u> <u>Accounting.</u> <u>Legal.</u> <u>Web design and development.</u> <u>Clone script of popular apps.</u> <u>Video recording and editing.</u> <u>Animation.</u></p>
+                            <!-- <a class="home-product__cta" href="">Learn more</a> -->
+                        </div>
+                    </div>
+                    <!-- Button trigger modal -->
+                    <a class="btn btn-default col-lg-4 col-md-6 col-sm-12 col-xs-12" data-toggle="modal" data-target="#myModal" style="margin: 15px 0px;">
+                        <strong>Subscribe to our Newsletter</strong>
+                    </a>
+                    <a class="btn btn-default col-lg-4 col-md-6 col-sm-12 col-xs-12 pull-right" href="https://drive.google.com/open?id=0Bxbw7h5M4f_QdXdCTDE1R3l6c0k" style="margin: 15px 0px;">
+                        <strong>Download Training Slides</strong>
+                    </a>
+                </div>
                 <div class="grid">
                     <div class="grid__col grid__col--sm-12 ">
                         <ul class="footer__social">
